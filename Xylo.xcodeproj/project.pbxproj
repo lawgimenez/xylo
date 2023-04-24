@@ -22,6 +22,7 @@
 		86A26F8F29F56189007B9C9F /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86A26F8829F56189007B9C9F /* A.wav */; };
 		86A26F9029F56189007B9C9F /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86A26F8929F56189007B9C9F /* E.wav */; };
 		86A26F9129F56189007B9C9F /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86A26F8A29F56189007B9C9F /* D.wav */; };
+		86CE7A6729F637CD0031985B /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CE7A6629F637CD0031985B /* Key.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		86A26F8829F56189007B9C9F /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
 		86A26F8929F56189007B9C9F /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
 		86A26F8A29F56189007B9C9F /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		86CE7A6629F637CD0031985B /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		86A26F4A29F55B86007B9C9F = {
 			isa = PBXGroup;
 			children = (
+				86CE7A6529F637B10031985B /* Models */,
 				86A26F8329F56159007B9C9F /* Sounds */,
 				86A26F5529F55B86007B9C9F /* Xylo */,
 				86A26F6729F55B88007B9C9F /* XyloTests */,
@@ -159,6 +162,14 @@
 				86A26F8529F56189007B9C9F /* G.wav */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		86CE7A6529F637B10031985B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86CE7A6629F637CD0031985B /* Key.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86A26F8229F55BA6007B9C9F /* PlayerView.swift in Sources */,
+				86CE7A6729F637CD0031985B /* Key.swift in Sources */,
 				86A26F5929F55B86007B9C9F /* ContentView.swift in Sources */,
 				86A26F5729F55B86007B9C9F /* XyloApp.swift in Sources */,
 			);
