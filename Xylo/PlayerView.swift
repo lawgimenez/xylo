@@ -15,16 +15,18 @@ struct PlayerView: View {
     var body: some View {
         VStack {
             Button(action: {
-                play(sound: "G")
+                play(sound: "C")
             }) {
-                Text("G")
+                Text("C")
+                    .foregroundColor(.white)
                     .frame(maxWidth: .infinity, minHeight: 90)
             }
-            .background(Color.pink)
+            .background(Color.red)
             Button(action: {
-                play(sound: "F")
+                play(sound: "D")
             }) {
-                Text("F")
+                Text("D")
+                    .foregroundColor(.white)
                     .frame(maxWidth: .infinity, minHeight: 90)
             }
             .background(Color.orange)
@@ -32,37 +34,50 @@ struct PlayerView: View {
                 play(sound: "E")
             }) {
                 Text("E")
-                    .frame(maxWidth: .infinity, minHeight: 90)
-            }
-            .background(Color.purple)
-            Button(action: {
-                play(sound: "D")
-            }) {
-                Text("D")
-                    .frame(maxWidth: .infinity, minHeight: 90)
-            }
-            .background(Color.green)
-            Button(action: {
-                play(sound: "C")
-            }) {
-                Text("C")
-                    .frame(maxWidth: .infinity, minHeight: 90)
-            }
-            .background(Color.red)
-            Button(action: {
-                play(sound: "B")
-            }) {
-                Text("B")
+                    .foregroundColor(.white)
                     .frame(maxWidth: .infinity, minHeight: 90)
             }
             .background(Color.yellow)
             Button(action: {
+                play(sound: "F")
+            }) {
+                Text("F")
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity, minHeight: 90)
+            }
+            .background(Color.green)
+            Button(action: {
+                play(sound: "G")
+            }) {
+                Text("G")
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity, minHeight: 90)
+            }
+            .background(Color.teal)
+            Button(action: {
                 play(sound: "A")
             }) {
                 Text("A")
+                    .foregroundColor(.white)
                     .frame(maxWidth: .infinity, minHeight: 90)
             }
-            .background(Color.blue)
+            .background(Color.indigo)
+            Button(action: {
+                play(sound: "B")
+            }) {
+                Text("B")
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity, minHeight: 90)
+            }
+            .background(Color.purple)
+            Button(action: {
+                play(sound: "C")
+            }) {
+                Text("C")
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity, minHeight: 90)
+            }
+            .background(Color.red)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
